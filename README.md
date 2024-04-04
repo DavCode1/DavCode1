@@ -1,16 +1,14 @@
-### Hi there 👋
 
-<!--
-**DavCode1/DavCode1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Wireframe version Pc et Mobile :
+[Maquette PC projet efp (1).pdf](https://github.com/DavCode1/DavCode1/files/14872533/Maquette.PC.projet.efp.1.pdf)
 
-Here are some ideas to get you started:
+Sujet : review de smartphone samsung
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Charte graphique :
+Couleur utilisé
+ #38A0B7 bleu pour la barre de navigation ainsi que les boutons 
+ #000000 Noir pour le bouton connexion
+ 
+Police utilisé
+BakBa kOne pour les texte de petites police
+Droid SANS pour les titres 
