@@ -12,3 +12,4 @@ Couleur utilisé
 Police utilisé
 BakBa kOne pour les texte de petites police
 Droid SANS pour les titres 
+[Image projet smartphone.zip](https://github.com/DavCode1/DavCode1/files/14872809/Image.projet.smartphone.zip)
