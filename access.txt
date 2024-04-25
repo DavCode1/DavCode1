@@ -1,0 +1,11 @@
+User : Uphone
+Pass : M-wb!_IZrPx0JKKn
+Host : localhost
+
+
+User : excercice LDB
+Pass : 7IYyBzT)1_KaRG-a
+Host : localhost
+
+  git config --global user.email "davidmnr571@gmail.com"
+  git config --global user.name "DavCode1"
