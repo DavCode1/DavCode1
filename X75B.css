@@ -18,7 +18,8 @@ body > header{
     padding:1.5rem 0;
 }
 
-body > header, footer{
+body > header, 
+body > footer{
     background:#123;
 }
 
@@ -67,18 +68,17 @@ input, textarea{
     resize:none;
 }
 
-button{
+button {
     border:1px solid black;
     border-radius:5px;
     background:#DCD;
     padding:0.5rem 1rem;
+    justify-content: space-around;
 }
 
 button:hover{
     background:red;
 }
-
-
 
 
 
@@ -88,6 +88,19 @@ article.catalogue {
 }
 article.catalogue > div {
     padding: 1rem;
+}
+article.catalogue footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+article.catalogue .price {
+    margin-left: auto;
+}
+
+.price::before {
+    content: '€';
 }
 
 img {
