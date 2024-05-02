@@ -14,13 +14,11 @@ main {
     justify-content: center;
 }
 
-body > header{
-    padding:1.5rem 0;
-}
+
 
 body > header, 
 body > footer{
-    background:#123;
+    background:#38A0B7;
 }
 
 body > header nav ul{
@@ -32,12 +30,12 @@ body > header nav ul{
 }
 
 body > header nav ul a{
-    color:white;
+    color:black;
     text-decoration:none;
 }
 
 body > footer {
-    color:#FFF;
+    color:#000000;
 }
 
 body > footer > *:last-child{
@@ -103,24 +101,8 @@ article.catalogue .price {
     content: '€';
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 
 
-@media (min-width: 1000px) {
-    body > header nav ul{
-        display:flex;
-        width: 100%;
-        
-    }
 
-    body > footer {
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-}
 
