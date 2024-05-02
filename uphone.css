@@ -145,20 +145,23 @@ body > header nav {
 .description-com {
     border: 1px solid rgb(0, 0, 0);
     margin-top: 20px; 
-
+    padding:1rem;
 }
 
-img,.image-profile {
-    max-width: 50px;
 
-    padding-left: 10px;
-}
 
 .img-et-profil {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     align-items: center;
-    padding: 15px 15px;
+    margin-bottom:1rem;
 }
+
+.img-et-profil > img{
+    width: 50px;
+    grid-row: span 2;
+}
+
 section > div h2 {
     padding: 0 10px;
 }
@@ -183,9 +186,11 @@ section a:hover {
     color:#38A0B7 ;
 }
 
-section > div p {
-
-    padding: 15px 15px;
+.description-com{
+    display:flex;
+}
+.description-com > img{
+    width:200px;
 }
 
 
@@ -194,3 +199,11 @@ section > div p {
     background-color: black;
 }
 
+.ohmystars img{
+    width:0.8rem;
+}
+
+.ohmystars{
+    display:flex;
+    gap:0.5rem;
+}

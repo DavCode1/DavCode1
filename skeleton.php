@@ -60,26 +60,26 @@
                 uphonecontact@gmail.com
             </address>
 
-            <nav>
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">X</a>
-            </nav>
+            <!-- <nav>
+                <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/62-instagram-512.png" alt=""></a>
+                <a href="#"><img src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Log%D0%BE.png" alt=""></a>
+                <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png" alt=""></a>
+            </nav> -->
         </div>
 
-        <div>
+        <!-- <div>
             <img src="img/map.png" alt="Carte locale de l'EFP">
-        </div>
-
+        </div> -->
+<!-- 
         <div>
             <ul>
                 <li><a href="#">Lien 1</a></li>
                 <li><a href="#">Lien 2</a></li>
                 <li><a href="#">Lien 3</a></li>
                 <li><a href="#">Lien 4</a></li>
-            </ul>
+            </ul> -->
             <!-- partenaires/liens/CGV -->
-        </div>
+        <!-- </div> -->
 
         <div>
             &copy; <?php echo date('Y'); ?>
