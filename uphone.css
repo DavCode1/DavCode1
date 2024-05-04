@@ -207,3 +207,33 @@ section a:hover {
     display:flex;
     gap:0.5rem;
 }
+
+ /* ---------------Page catalogue ----------------- */
+
+  .header-catalogue {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 150px;
+    margin-top: 40px;
+  }
+    .bdr-catalogue {
+      width: 700px;
+      height: 20px;
+      margin-left: 250px;
+    }
+  
+  .catalogue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Permettre le passage à la ligne */
+}
+
+.produits-catalogues {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px; /* Marge entre les images */
+}
+
+  /* ---------------Page catalogue Fin ----------------- */
