@@ -4,6 +4,7 @@
 - GET /index.php?page=home
 - GET /index.php?page=contact
 - GET /index.php?page=catalog
+- GET /index.php?page=description
 
 ## AUTH
 

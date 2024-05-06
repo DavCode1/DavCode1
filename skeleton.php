@@ -24,8 +24,10 @@
                     'catalog' => 'Catalogue',
                     'register' => 'Inscription',
                     'logout' => 'Déconnexion',
+                    'description' => 'description',
                     'profile' => 'Profil',
                     'product' => 'Item',
+                    'login' => 'connexion',
                 ];
 
                 foreach ($menu as $href => $label) {

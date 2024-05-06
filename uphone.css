@@ -143,7 +143,7 @@ body > header nav {
 
 .description-com {
     border: 1px solid rgb(0, 0, 0);
-    margin-top: 20px; 
+    margin-top: 50px; 
     padding:1rem;
 }
 
@@ -250,7 +250,12 @@ section a:hover {
     width: 300px;
     height: 370px;
 }
+.carousel-accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 div > button {
     color: white;
     background-color: black;
@@ -327,35 +332,6 @@ div > button {
     max-height: 200px;
   }
   
-  .image-profile {
-  
-    max-width: 40px;
-    max-height: 40px;
-    display: flex;
-  
-  }
-  
-  .avis {
-  
-    border: 2px solid rgb(49, 72, 167);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-    padding: 5px;
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  
-  }
-  
-  .section-avis {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    gap: 50px;
-  }
   
   .commentaires {
   
@@ -373,6 +349,8 @@ div > button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
   
   }
   .btn {
@@ -386,5 +364,59 @@ div > button {
     background-color: #7fe7e0; /* Rouge YouTube plus foncé au survol */
    
   }
+
+
+  .carte-produit {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
   
+ 
+
     /* ------------ Page index Fin ---------------- */
+
+    /* page individuelle description */
+    .desc-tel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+   .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+   }
+    .desc-texte {
+
+        width: 400px;
+    }
+    .gamme {
+        background-color: gold;
+
+        height: 25px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Pour centrer verticalement si nécessaire */
+    }
+    .desc-gamme {
+
+    display: flex;
+    gap: 10px;
+    }
+
+    .point-forts-faibles {
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+    /* page individuelle description Fin */
