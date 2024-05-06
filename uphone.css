@@ -405,18 +405,66 @@ div > button {
 
     display: flex;
     gap: 10px;
+    align-items: center;
     }
 
     .point-forts-faibles {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .titre-résumé {
+    font-size: larger;
+    }
+
+    .signe {
+        width: 20px;
+        height: 20px;
+    }
+
+    .desc-signe {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 30px;
     }
 
 
-
-
-
-
-
-
+    .color1 {
+        background-color: #38A0B7; /* Couleur pour les rangées impaires */
+    }
+    
+    .color2 {
+        background-color: #3cb2da; /* Couleur pour les rangées paires */
+    }
+    
+    .table {
+        width: 800px;
+        /* border-collapse: collapse; */
+        width: 100%;
+    }
+    
+    tr {
+        background-color: #e2e4e5; /* Couleur de fond pour les rangées paires */
+    }
+    
+    tr.color2 {
+        background-color: #ffffff; /* Couleur de fond pour les rangées impaires */
+    }
+    
+    td, th {
+        border: 1px solid white; /* Bordure blanche pour créer l'espace entre les cellules */
+        text-align: center; /* Centrer le texte horizontalement */
+        padding: 10px; /* Ajouter un espace à l'intérieur de chaque cellule */
+    }
+    
+    /* Centrer le contenu des cellules verticalement */
+    td, th {
+        vertical-align: middle;
+    }
+    
 
     /* page individuelle description Fin */
