@@ -117,7 +117,7 @@ body > header nav ul {
 
 body > header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -167,8 +167,31 @@ section > div h2 {
 .input-com {
 
     height: 90px;
-    border-radius: 20px;
+
     margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.ajt-com {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.btn-com {
+    background-color: #38A0B7;
+    color: white;
+    width: 100px;
+}
+
+
+.voir-com {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    height: 50px;
+
+
 }
 
 section a {
@@ -193,10 +216,8 @@ section a:hover {
 }
 
 
-.btn-connexion {
-    color: white;
-    background-color: black;
-}
+
+
 
 .ohmystars img{
     width:0.8rem;
@@ -237,7 +258,8 @@ section a:hover {
     justify-content: center;
     grid-template-columns: repeat(3, 1fr); /* Affichage des produits en 3 colonnes */
     gap: 50px; /* Espacement entre les produits */
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 .carte-produit {
 
@@ -261,6 +283,25 @@ div > button {
     background-color: black;
 }
 
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    background-color: black;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+.pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+}
   /* ---------------Page catalogue Fin ----------------- */
 
   /* Page home */
@@ -361,7 +402,8 @@ div > button {
   
   }
   .btn-commentaires:hover {
-    background-color: #7fe7e0; /* Rouge YouTube plus foncé au survol */
+    background-color: #38A0B7;
+    color: white;
    
   }
 
@@ -399,7 +441,7 @@ div > button {
         width: 80px;
         display: flex;
         justify-content: center;
-        align-items: center; /* Pour centrer verticalement si nécessaire */
+        align-items: center; 
     }
     .desc-gamme {
 
@@ -445,6 +487,7 @@ div > button {
         width: 800px;
         /* border-collapse: collapse; */
         width: 100%;
+        margin-top: 100px;
     }
     
     tr {
@@ -468,3 +511,17 @@ div > button {
     
 
     /* page individuelle description Fin */
+
+    /* footer */
+
+    .img-footer {
+        width: 50px;
+        height: 50px;
+        object-fit: cover; /* Ajuste la taille de l'image pour qu'elle remplisse entièrement le conteneur */
+        object-position: center;
+    }
+
+    .reseau {
+        display: flex;
+        flex-direction: column;
+    }

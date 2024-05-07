@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="X75B.css">
     <link rel="stylesheet" href="uphone.css">
 
+
 </head>
 
 <body>
@@ -20,13 +21,14 @@
                 <?php
                 $menu = [
                     'home' => 'Accueil',
-                    'contact' => 'Contact',
                     'catalog' => 'Catalogue',
+                    'description' => 'description',
+                    'review' => 'review',
                     'register' => 'Inscription',
                     'logout' => 'Déconnexion',
-                    'description' => 'description',
                     'profile' => 'Profil',
                     'product' => 'Item',
+                    'contact' => 'Contact',
                     'login' => 'connexion',
                 ];
 
@@ -40,7 +42,6 @@
                 ?>
 
             </ul>
-            <button class="btn-connexion">connexion</button>
         </nav>
     </header>
 
@@ -56,17 +57,19 @@
     <footer>
         <div>
             <!-- info contact -->
-            <address>
-                Uphone<br />
-                02 386 70 58<br />
-                uphonecontact@gmail.com
-            </address>
+          <div>
+            <h1>NOUS CONTACTER</h1>
+            </div>
+            <div class="reseau">
+                <span>Réseaux sociaux</span>
+                <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/62-instagram-512.png" alt="" class="img-footer" ></a>
+                <a href="#"><img src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Log%D0%BE.png" alt="" class="img-footer"></a>
+                <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png" alt="" class="img-footer"></a>
+            </div>
 
-            <!-- <nav>
-                <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/62-instagram-512.png" alt=""></a>
-                <a href="#"><img src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Log%D0%BE.png" alt=""></a>
-                <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png" alt=""></a>
-            </nav> -->
+
+        
+
         </div>
 
         <!-- <div>
@@ -85,6 +88,7 @@
 
         <div>
             &copy; <?php echo date('Y'); ?>
+            <span>Uphone</span>
             <!-- copyright -->
         </div>
     </footer>

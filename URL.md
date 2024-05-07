@@ -5,6 +5,9 @@
 - GET /index.php?page=contact
 - GET /index.php?page=catalog
 - GET /index.php?page=description
+- GET /index.php?page=catalogue-page-1
+- GET /index.php?page=catalogue-page-2
+- GET /index.php?page=catalogue-page-3
 
 ## AUTH
 
