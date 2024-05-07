@@ -1,5 +1,5 @@
 <?php
-echo 'hello world';
+
 // récupérer un élément de la db
 $sql="SELECT * FROM item WHERE id = 1";
 

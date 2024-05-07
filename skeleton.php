@@ -22,12 +22,12 @@
                 $menu = [
                     'home' => 'Accueil',
                     'catalog' => 'Catalogue',
-                    'description' => 'description',
+                    // 'description' => 'description',
                     'review' => 'review',
                     'register' => 'Inscription',
                     'logout' => 'Déconnexion',
                     'profile' => 'Profil',
-                    'product' => 'Item',
+                    'product' => 'description',
                     'contact' => 'Contact',
                     'login' => 'connexion',
                 ];
