@@ -1,5 +1,5 @@
 
-<section>
+<section class="formulaire">
 <h1>Inscrivez-vous</h1>
 
 <form action="index.php?action=register">

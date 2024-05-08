@@ -17,7 +17,7 @@
         <a href="#"><img src="img/S24.jpg" alt="Samsung S24" class="produits-catalogues"></a>
         <h1>Samsung S24</h1>
         <div>
-            <button>En savoir plus</button>
+           <button>En savoir plus</button>
         </div>
     </div>
 

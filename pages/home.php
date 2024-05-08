@@ -81,7 +81,7 @@
 
     <span class="commentaires">Commentaires</span>
 
-    
+    <section class="carte-commentaire">
     <article class="description-com">
       <div>
 
@@ -207,6 +207,7 @@ stars.forEach((star, index) => {
   <img src="https://images.samsung.com/is/image/samsung/p6pim/be_fr/2401/gallery/be-fr-galaxy-s24-s928-sm-s928bzkheub-539426666?$720_576_JPG$"
       alt="samsungs24">
 </article>
+</section>
 
   
     <div class="btn">

@@ -8,3 +8,12 @@ $product = $stmt->fetch();
 require "description.php";
 
 // affiche cet élément dans la page avec le partiel description.php
+
+// $sql = "SELECT * FROM comments WHERE id = 16";
+
+// $stmt = $pdo->query($sql);
+// $product = $stmt->fetch();
+// require "review.php";
+
+
+

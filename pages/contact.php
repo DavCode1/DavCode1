@@ -1,4 +1,4 @@
-<section>
+<section class="formulaire">
     <h1>Contactez-nous</h1>
     <form action="" method="POST">
         <label for="nom">Nom d'utilisateur</label>
