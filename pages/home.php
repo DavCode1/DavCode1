@@ -5,14 +5,7 @@
       <img
         src="img/s24-page-accueil.jpg" alt="#" class="image-actu"/>
     </div>
-    <div class="texte-actu">
-      <p>
-        Samsung annonce début 2024 la sortie de sa gamme S : les Samsung Galaxy S24, génération propulsée par l'IA (Galaxy AI). 
-      </p>
-      <p>
-        La version de base (Samsung Galaxy S24), modèle le plus abordable des trois se positionne aussi comme un format plus compact, avec un écran Dynamic AMOLED de 6,2 pouces avec un taux de rafraîchissement de 120 Hz, animé par un SoC maison (Exynos 2400), couplé à 8 Go de RAM et jusqu'à 256 Go de stockage.
-      </p>
-    </div>
+
     </div>
 
     
@@ -125,7 +118,7 @@ stars.forEach((star, index) => {
    </script>
 
 
-          <p>Le Galaxy S24 offre une expérience exceptionnelle avec son design élégant, ses performances puissantes et sa caméra innovante. Un compagnon fiable pour ceux qui recherchent le meilleur de la technologie mobile.</p>
+          <p class="texte-com">Le Galaxy S24 offre une expérience exceptionnelle avec son design élégant, ses performances puissantes et sa caméra innovante. Un compagnon fiable pour ceux qui recherchent le meilleur de la technologie mobile.</p>
             <div>
                 <img src="" alt="">
                 <img src="" alt="">

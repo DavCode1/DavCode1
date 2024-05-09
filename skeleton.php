@@ -23,10 +23,10 @@
                     'catalog' => 'Catalogue',
                     // 'description' => 'description',
                     'review' => 'review',
+                    // 'logout' => 'Déconnexion',
+                    // 'profile' => 'Profil',
+                    // 'product' => 'description',
                     'register' => 'Inscription',
-                    'logout' => 'Déconnexion',
-                    'profile' => 'Profil',
-                    'product' => 'description',
                     'contact' => 'Contact',
                     'login' => 'connexion',
                 ];

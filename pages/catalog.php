@@ -1,6 +1,6 @@
 <section class="section-catalogue">
 <div class="header-catalogue">
-    <h1>Tous les smartphones</h1>
+    <h1 class="titre-catalogue">Tous les smartphones</h1>
     <input type="text" placeholder="Rechercher..." class="bdr-catalogue">
 </div>
 
@@ -17,7 +17,7 @@
         <a href="#"><img src="img/S24.jpg" alt="Samsung S24" class="produits-catalogues"></a>
         <h1>Samsung S24</h1>
         <div>
-           <button>En savoir plus</button>
+           <a href="/Uphone-Project/index.php?page=product"><button>En savoir plus</button></a>
         </div>
     </div>
 

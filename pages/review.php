@@ -3,7 +3,9 @@
 <section class="container">
 
     <section class="carte-commentaire">
-        <h1>Les smarpthones les mieux notés</h1>
+        <div class="container-titre-review">
+        <h1 class="titre-review">Les smarpthones les mieux notés</h1>
+        </div>
 
         <article class="description-com">
             <div>
@@ -107,8 +109,9 @@
                 alt="samsungs24">
         </article>
 
-
+        <div class="btn">
         <a href="#" class="voir-com">Voir les autres commentaires</a>
+        </div>
         <section class="ajt-com">
 
             <input type="text" placeholder="Votre commentaire" class="input-com">
@@ -122,7 +125,7 @@
     <section class="container">
 
         <section class="carte-commentaire">
-            <h1>Les commentaires les plus récent</h1>
+            <h1 class="titre-review">Les commentaires les plus récent</h1>
     
             <article class="description-com">
                 <div>
@@ -159,7 +162,9 @@
             </article>
     
     
-            <a href="#" class="voir-com">Voir les autres commentaires</a>
+            <div class="btn">
+        <a href="#" class="voir-com">Voir les autres commentaires</a>
+        </div>
             <section class="ajt-com">
     
                 <input type="text" placeholder="Votre commentaire" class="input-com">

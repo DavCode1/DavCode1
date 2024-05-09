@@ -24,7 +24,7 @@ body > footer{
 body > header nav ul{
     display:flex;
     justify-content:center;
-    gap:1rem;
+    gap:3rem;
     margin:0;
     flex-wrap: wrap;
 }
@@ -67,15 +67,17 @@ input, textarea{
 }
 
 button {
-    border:1px solid black;
+    color: white;
     border-radius:5px;
-    background:#DCD;
+    background-color:rgb(0, 0, 0);
     padding:0.5rem 1rem;
     justify-content: space-around;
 }
 
 button:hover{
-    background:#38A0B7;
+    background-color:#38A0B7;
+    border: 1px solid #38A0B7 ;
+    cursor: pointer;
 }
 
 
