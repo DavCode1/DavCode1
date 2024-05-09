@@ -24,9 +24,10 @@ body > footer{
 body > header nav ul{
     display:flex;
     justify-content:center;
-    gap:3rem;
+    gap:2rem;
     margin:0;
     flex-wrap: wrap;
+    
 }
 
 body > header nav ul a{
@@ -60,7 +61,7 @@ label{
 
 input, textarea{
     width:100%;
-    border-radius:5px;
+    border-radius:0px;
     border:1px solid black;
     padding:0.5rem;
 

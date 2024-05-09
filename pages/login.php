@@ -1,5 +1,5 @@
 <section class="formulaire">
-<h1>Connectez-vous</h1>
+<h1 class="contactez-nous">Connectez-vous</h1>
 <span>connectez-vous pour accéder à votre espace</span>
 
 <form action="index.php?action=identify">

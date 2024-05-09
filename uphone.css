@@ -27,6 +27,13 @@ main {
 
 
 }
+.texte-inscrire {
+    font-family: "Bakbak One", sans-serif;
+}
+
+.contactez-nous {
+    font-family: "Bakbak One", sans-serif;
+}
 section > h1{
     align-items: center;
     justify-content: center;
@@ -180,6 +187,14 @@ body > header nav {
 
 }
 
+.container-titre-review {
+    margin-top: 50px;
+    
+}
+.titre-review {
+    font-family: "Bakbak One", sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -195,6 +210,8 @@ body > header nav {
     width: 800px;
     align-items: center;
     justify-content: center;
+    border: 1px solid #ccc; /* Add a bottom border */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -296,6 +313,9 @@ section a:hover {
     margin-left: 50px;
     margin-top: 40px;
   }
+  .titre-catalogue {
+    font-family: "Bakbak One", sans-serif;
+  }
   .bdr-catalogue {
 
     width: 500px;
@@ -366,6 +386,8 @@ div > button {
     align-items: center;
     font-size: 2em;
     padding: 40px;
+    font-family: "Bakbak One", sans-serif;
+
   }
 
 
@@ -386,8 +408,9 @@ div > button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
-    padding: 40px;
+    font-size: 2em;
+    padding: 60px;
+    font-family: "Bakbak One", sans-serif;
   
   
   }
@@ -425,9 +448,10 @@ div > button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 2em;
     padding: 20px;
     padding-top: 100px;
+    font-family: "Bakbak One", sans-serif;
   }
   
   .btn-commentaires {
@@ -490,6 +514,15 @@ div > button {
         justify-content: center;
         align-items: center; 
     }
+    .gamme2 {
+        background-color: rgb(188, 23, 180);
+        color: rgb(255, 255, 255);
+        height: 25px;
+        width: 155px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
     .desc-gamme {
 
     display: flex;
@@ -502,6 +535,7 @@ div > button {
         justify-content: center;
         align-items: center;
         gap: 100px;
+        margin-left: 50px;
     }
 
     .titre-résumé {
@@ -531,9 +565,9 @@ div > button {
     }
     
     .table {
-        width: 800px;
+        width: 1300px;
         /* border-collapse: collapse; */
-        width: 100%;
+      
         margin-top: 100px;
     }
     
@@ -597,16 +631,18 @@ div > button {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 150px;
+        height: 180px;
+        
     }
     body > header nav ul {
         gap: 30px;
         font-size: 16px;
+        margin: 43px;
     }
     .image-actu {
         margin: 0 auto;
-        width: 200px;
-        margin-left: 80px;
+        width: 300px;
+        margin-left: 26px;
         height: auto;
         object-fit: cover;
         object-position: center;
@@ -615,12 +651,13 @@ div > button {
      
         justify-content: left;
         font-size: 20px;
+        width: 360px;
     }
     .titre-modele {
-        width: 50%;
+        width: 100%;
         justify-content: left;
         font-size: 20px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     .carousel-accueil {
@@ -637,11 +674,13 @@ div > button {
         width: 50%;
         justify-content: left;
         font-size: 20px;
-        margin-left: 100px;
+        margin-left: 89px;
     }
+
 
     .carte-commentaire {
         width: 100%;
+        display: inline;
 
         
     }
@@ -653,12 +692,16 @@ div > button {
     .description-com {
         width: 450px;
         margin-right: 160px;
+        margin-top: 20px;
 
+    }
+    .voir-com {
+        width: 220px;
     }
     .btn {
         justify-content: left;
         width: 100%;
-        margin-left: 92px;
+        margin-left: 57px;
 
     }
 
@@ -674,9 +717,11 @@ div > button {
         margin-right: 760px;
         padding-left: 27px;
         gap: 30px;
+        align-items: flex-start;
     }
     .titre-catalogue {
         font-size: 20px;
+        width: 350px;
     }
     .bdr-catalogue {
         width: 200px;
@@ -692,7 +737,7 @@ div > button {
     .pagination {
         display: flex;
         justify-content: left;
-        padding-left: 20px;
+        padding-left: 7px;
     }
 
     /* responsive page review  */
@@ -704,8 +749,86 @@ div > button {
         display: flex;
         justify-content: left;
         margin-right: 250px;
+        padding-top: 50px;
+    }
+    .container-titre-review-2 {
+        display: flex;
+        justify-content: left;
+        margin-right: 250px;
+        padding-top: 20px;
     }
     .titre-review {
         font-size: 20px;
+        padding-left: 20px;
     }
+
+    .btn-review {
+        margin: 0 auto;
+        padding-left: 75px;
+    }
+
+
+    .input-com {
+        width: 250px;
+
+    }
+
+/* responsive page inscription  */
+
+    .texte-inscrire {
+        font-size: 20px;
+    }
+
+    .formulaire {
+        width: 340px;
+        margin-top: 50px;
+    }
+
+    .mess-contact {
+        height: 100px;
+    }
+
+
+ /* responsive page description  */
+
+    .desc-tel {
+        flex-direction: column;
+        margin-right: 930px;
+    }
+    .desc {
+
+        margin-left: 90px;
+    }
+    .img-in-div {
+    
+        width: 250px;
+        height: 250px;
+    
+    }
+
+    .point-forts-faibles {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        padding-left: 20px;
+        width: 350px;
+        margin-left: 0px;
+    
+    }
+
+    .desc-signe {
+        justify-content: flex-start;
+        padding-left: 78px;
+        margin-top: 80px
+    }
+
+    .table {
+        width: 350px;
+        margin-top: 50px;
+    }
+    
+}
+
+body *:not(.titre-actu, .titre-modele, .commentaires, .titre-catalogue, .titre-review, .contactez-nous, .texte-inscrire ) {
+    font-family: 'Nunito Sans', sans-serif;
 }

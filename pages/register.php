@@ -1,6 +1,6 @@
 
 <section class="formulaire">
-<h1>Inscrivez-vous</h1>
+<h1 class="texte-inscrire">Inscrivez-vous</h1>
 
 <form action="index.php?action=register">
     <label for="e-mail" class="texte-mail">E-mail</label>

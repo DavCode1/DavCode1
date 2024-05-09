@@ -33,7 +33,7 @@
             <a href="#"><img src="img/galaxy-a55e.jpg" alt="Modèle A55" class="produits-catalogues"></a>
             <h1>Samsung A55 5G</h1>
         <div>
-            <button>En savoir plus</button>
+        <a href="index.php?page=description-page-2"><button>En savoir plus</button></a>
         </div>
     </div>
 

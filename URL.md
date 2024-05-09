@@ -8,6 +8,7 @@
 - GET /index.php?page=catalogue-page-1
 - GET /index.php?page=catalogue-page-2
 - GET /index.php?page=catalogue-page-3
+- GET /index.php?page=description-page-2
 
 ## AUTH
 

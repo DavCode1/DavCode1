@@ -8,6 +8,12 @@
 
     <link rel="stylesheet" href="X75B.css">
     <link rel="stylesheet" href="uphone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 
 
 </head>
@@ -22,7 +28,7 @@
                     'home' => 'Accueil',
                     'catalog' => 'Catalogue',
                     // 'description' => 'description',
-                    'review' => 'review',
+                    'review' => 'Avis',
                     // 'logout' => 'Déconnexion',
                     // 'profile' => 'Profil',
                     // 'product' => 'description',

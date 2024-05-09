@@ -4,11 +4,11 @@
     </div>
 
     <div class="desc">
-        <h1 class="desc-texte"><?= $product["label"];?></h1>
-        <p>Lancement - Janvier 2024</p>
+        <h1 class="desc-texte">Samsung Galaxy A55 5G</h1>
+        <p>Lancement - Mars 2024</p>
         <div class="desc-gamme">
-            <span class="gamme">PREMIUM</span>
-            <span>à partir de <?= $product["price"];?> €</span>
+            <span class="gamme2">MILLIEU DE GAMME</span>
+            <span>à partir de 479 €</span>
         </div>
     </div>
 </div>
@@ -20,13 +20,13 @@
         <span class="titre-résumé">Points forts</span>
     </div>
         <ul>
-           <li> Très bonne performance globale de l'affichage, offrant une bonne lisibilité et la meilleure expérience de sa catégorie en extérieur.</li>
+           <li> Le Galaxy A55 5G offre une connectivité ultrarapide pour le streaming, le téléchargement et les jeux.</li>
            <br>
-            <li> Très bonne expérience photo, avec des clichés offrant des couleurs vives et agréables dans toutes les conditions.</li>
+            <li> Il présente un bel écran avec des couleurs vives et un bon contraste, typique des smartphones Samsung.</li>
             <br>
-            <li> Photos de portrait naturelles dans des conditions de lumière favorables.</li>
+            <li>  Doté d'un processeur solide et d'une quantité de RAM décente, il assure des performances fluides pour la plupart des tâches quotidiennes.</li>
             <br>
-            <li> Caméra polyvalente offrant une haute qualité d'image sur plusieurs plages de zoom.</li>
+            <li> Il propose une batterie de bonne capacité pour une autonomie décente.</li>
         </ul>
     </div>
 
@@ -36,13 +36,13 @@
         <span class="titre-résumé">Points faibles</span>
     </div>
         <ul>
-            <li>Visionnage de vidéos inconfortable en raison de la luminosité excessive de l'écran en basse lumière.</li>
+            <li>Les smartphones de milieu de gamme peuvent parfois souffrir d'une qualité d'appareil photo inférieure par rapport aux modèles haut de gamme.</li>
             <br>
-            <li>Limitations dans la capture d'images en basse lumière, avec une perte significative de détails et du bruit visible.</li>
+            <li>Il peut utiliser des matériaux de construction moins premium, ce qui pourrait affecter sa résistance</li>
             <br>
-            <li>Instabilités lors de la prise de vidéos.</li>
+            <li>La surcouche logicielle de Samsung peut être lourde, entraînant parfois des ralentissements ou des bogues.</li>
             <br>
-            <li>Difficulté à capturer l'instant avec précision, notamment dans des conditions difficiles.</li>
+            <li>Par rapport aux modèles haut de gamme, il pourrait manquer de certaines fonctionnalités avancées telles que la recharge sans fil ou la certification IP68 pour la résistance à l'eau et à la poussière.</li>
 
         </ul>
     </div>
@@ -53,15 +53,15 @@
 <table class="table">
     <tr class="color2">
         <td>Prix</td>
-        <td>1449,00 € / 1569,00 € / 1809,00 €</td>
+        <td>479 €</td>
     </tr>
     <tr class="color1">
         <td>Capacité stockage</td>
-        <td>256Go / 512Go / 1To</td>
+        <td>256Go</td>
     </tr>
     <tr class="color2">
         <td>Capacité ram</td>
-        <td>12Go Ram</td>
+        <td>8Go Ram</td>
     </tr>
     <tr class="color1">
         <td>Capacité batterie</td>
@@ -73,11 +73,11 @@
     </tr>
     <tr class="color1">
         <td>Qualité d'écran</td>
-        <td>QUAD HD+</td>
+        <td>FHD+</td>
     </tr>
     <tr class="color2">
         <td>Taille</td>
-        <td>6.8"</td>
+        <td>6.6"</td>
     </tr>
 
 </table>
