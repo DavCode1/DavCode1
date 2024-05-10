@@ -80,7 +80,7 @@
 
           <div class="img-et-profil">
               <img src="https://cdn-icons-png.freepik.com/256/552/552848.png?semt=ais_hybrid" alt="image-profil">
-              <h2>David Mannara</h2>
+              <h2>Christopher Martin</h2>
               <div class="ohmystars">
                 <svg id="star1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
@@ -134,7 +134,7 @@ stars.forEach((star, index) => {
 
         <div class="img-et-profil">
             <img src="https://cdn-icons-png.freepik.com/256/552/552848.png?semt=ais_hybrid" alt="image-profil">
-            <h2>David Mannara</h2>
+            <h2>Théo Lambert</h2>
               <div class="ohmystars">
                 <svg id="star1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
@@ -154,15 +154,12 @@ stars.forEach((star, index) => {
             </div>
         </div>
  
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit itaque illum officiis
-            doloribus
-            obcaecati similique, nostrum alias labore quo recusandae! Minus natus commodi, assumenda incidunt
-            molestias error? Illo, facere unde.</p>
+        <p>Le Samsung Galaxy A33 est un téléphone polyvalent qui offre un excellent rapport qualité-prix. Sa configuration quad-caméra et son écran Super AMOLED en font un compagnon idéal pour la photographie et le divertissement.</p>
 
     </div>
 
-    <img src="https://images.samsung.com/is/image/samsung/p6pim/be_fr/2401/gallery/be-fr-galaxy-s24-s928-sm-s928bzkheub-539426666?$720_576_JPG$"
-        alt="samsungs24">
+    <img src="img/A 33.webp"
+        alt="samsung A33">
 </article>
 
 <article class="description-com">
@@ -170,7 +167,7 @@ stars.forEach((star, index) => {
 
       <div class="img-et-profil">
           <img src="https://cdn-icons-png.freepik.com/256/552/552848.png?semt=ais_hybrid" alt="image-profil">
-          <h2>David Mannara</h2>
+          <h2>Sarah Dubois</h2>
           <div class="ohmystars">
             <svg id="star1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
                 <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
@@ -190,14 +187,11 @@ stars.forEach((star, index) => {
         </div>
       </div>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit itaque illum officiis
-          doloribus
-          obcaecati similique, nostrum alias labore quo recusandae! Minus natus commodi, assumenda incidunt
-          molestias error? Illo, facere unde.</p>
+      <p>Le Samsung Galaxy S24 Ultra est un classique intemporel. Sa conception élégante, son appareil photo de qualité professionnelle et ses performances fluides en font toujours l'un des meilleurs choix sur le marché des smartphones.</p>
 
   </div>
 
-  <img src="https://images.samsung.com/is/image/samsung/p6pim/be_fr/2401/gallery/be-fr-galaxy-s24-s928-sm-s928bzkheub-539426666?$720_576_JPG$"
+  <img src="img/S24 ultra.webp"
       alt="samsungs24">
 </article>
 </section>

@@ -253,7 +253,7 @@ section > div h2 {
 .voir-com {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 200px;
+    width: 220px;
     background-color: black;
     color: white;
     height: 50px;
@@ -504,6 +504,7 @@ div > button {
     .desc-texte {
 
         width: 400px;
+        
     }
     .gamme {
         background-color: gold;
@@ -590,6 +591,43 @@ div > button {
         vertical-align: middle;
     }
     
+    .tags {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 125px;
+        margin-top: 125px;
+        margin-bottom: 125px;
+    }
+    
+    .tag-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .img-tags {
+        width: 100px;
+
+    }
+    
+    .texte-tags {
+        margin-top: 20px;
+
+    }
+    .rouge {
+        color: red;
+        font-weight: bold;
+    }
+
+    .vert {
+        color: rgb(25, 180, 25);
+        font-weight: bold;
+    }
+
+
+
 
     /* page individuelle description Fin */
 
@@ -631,13 +669,15 @@ div > button {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 180px;
+        height: 340px;
+
         
     }
     body > header nav ul {
         gap: 30px;
         font-size: 16px;
-        margin: 43px;
+        flex-direction: column;
+        margin-bottom: 50px;
     }
     .image-actu {
         margin: 0 auto;
@@ -764,7 +804,7 @@ div > button {
 
     .btn-review {
         margin: 0 auto;
-        padding-left: 75px;
+        padding-left: 66px;
     }
 
 
@@ -775,9 +815,7 @@ div > button {
 
 /* responsive page inscription  */
 
-    .texte-inscrire {
-        font-size: 20px;
-    }
+
 
     .formulaire {
         width: 340px;
@@ -825,6 +863,18 @@ div > button {
     .table {
         width: 350px;
         margin-top: 50px;
+    }
+
+    .tags {
+        justify-content: flex-start;
+        gap: 45px;
+        padding-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .img-tags {
+        width: 30px;
     }
     
 }

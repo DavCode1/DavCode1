@@ -82,4 +82,31 @@
 
 </table>
 
+<div class="tags">
+    <div class="tag-item">
+        <img src="img/stylet2.png" alt="img-stylet" class="img-tags">
+        <div class="texte-tags">
+            <span class="rouge">Sans</span>
+        </div>
+    </div>
+    <div class="tag-item">
+        <img src="img/pliable2.png" alt="img-pliable" class="img-tags">
+        <div class="texte-tags">
+            <span class="rouge">Sans</span>
+        </div>
+    </div>
+    <div class="tag-item">
+        <img src="img/waterproof_7933396.png" alt="img-waterproof" class="img-tags">
+        <div class="texte-tags">
+            <span class="vert">Avec</span>
+        </div>
+    </div>
+    <div class="tag-item">
+        <img src="img/disponibilité.png" alt="img-disponibilité" class="img-tags">
+        <div class="texte-tags">
+            <span class="vert">En vente</span>
+        </div>
+    </div>
+</div>
+
 
