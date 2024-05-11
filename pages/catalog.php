@@ -66,7 +66,7 @@
             <a href="#"><img src="img/LD0006119118.jpg" alt="Modèle A25" class="produits-catalogues"></a>
             <h1>Samsung A25</h1>
         <div>
-            <button>En savoir plus</button>
+        <a href="index.php?page=description-page-3"><button>En savoir plus</button></a>
         </div>
     </div>
 

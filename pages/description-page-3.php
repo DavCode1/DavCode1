@@ -1,14 +1,14 @@
 <div class="desc-tel">
     <div class="desc-img">
-        <img src="img/a55.webp" alt="samsung-galaxy-s24-ultra-violet" class="img-in-div">
+        <img src="img/a25.avif" alt="samsung-galaxy-s24-ultra-violet" class="img-desc-3">
     </div>
 
     <div class="desc">
-        <h1 class="desc-texte">Samsung Galaxy A55 5G</h1>
+        <h1 class="desc-texte">Samsung Galaxy A25 5G</h1>
         <p>Lancement - Mars 2024</p>
         <div class="desc-gamme">
-            <span class="gamme2">MILLIEU DE GAMME</span>
-            <span>à partir de 479 €</span>
+            <span class="gamme3">BAS DE GAMME</span>
+            <span>à partir de 279 €</span>
         </div>
     </div>
 </div>
@@ -20,7 +20,7 @@
         <span class="titre-résumé">Points forts</span>
     </div>
         <ul>
-           <li> Le Galaxy A55 5G offre une connectivité ultrarapide pour le streaming, le téléchargement et les jeux.</li>
+           <li> Le Galaxy A25 5G offre une connectivité ultrarapide pour le streaming, le téléchargement et les jeux.</li>
            <br>
             <li> Il présente un bel écran avec des couleurs vives et un bon contraste, typique des smartphones Samsung.</li>
             <br>
@@ -36,7 +36,7 @@
         <span class="titre-résumé">Points faibles</span>
     </div>
         <ul>
-            <li>Les smartphones de milieu de gamme peuvent parfois souffrir d'une qualité d'appareil photo inférieure par rapport aux modèles haut de gamme.</li>
+            <li>Les smartphones de bas de gamme peuvent parfois souffrir d'une qualité d'appareil photo inférieure par rapport aux modèles haut de gamme.</li>
             <br>
             <li>Il peut utiliser des matériaux de construction moins premium, ce qui pourrait affecter sa résistance</li>
             <br>
@@ -53,7 +53,7 @@
 <table class="table">
     <tr class="color2">
         <td>Prix</td>
-        <td>479 €</td>
+        <td>279 €</td>
     </tr>
     <tr class="color1">
         <td>Capacité stockage</td>
@@ -61,7 +61,7 @@
     </tr>
     <tr class="color2">
         <td>Capacité ram</td>
-        <td>8Go Ram</td>
+        <td>6 / 8Go RAM</td>
     </tr>
     <tr class="color1">
         <td>Capacité batterie</td>
@@ -73,11 +73,11 @@
     </tr>
     <tr class="color1">
         <td>Qualité d'écran</td>
-        <td>FHD+</td>
+        <td>HD+</td>
     </tr>
     <tr class="color2">
         <td>Taille</td>
-        <td>6.6"</td>
+        <td>6.5"</td>
     </tr>
 
 </table>
@@ -98,7 +98,7 @@
     <div class="tag-item">
         <img src="img/waterproof_7933396.png" alt="img-waterproof" class="img-tags">
         <div class="texte-tags">
-            <span class="vert">Avec</span>
+            <span class="rouge">Sans</span>
         </div>
     </div>
     <div class="tag-item">

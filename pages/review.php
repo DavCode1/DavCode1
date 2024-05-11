@@ -226,13 +226,12 @@
     
     
             <div class="btn-review">
-        <a href="#" class="voir-com">Voir les autres commentaires</a>
+        <a href="#" class="voir-com" id="voir-plus-com">Voir les autres commentaires</a>
         </div>
 
         </section>
 
 
 
-        <section class="container"></section>
 
 

@@ -57,7 +57,7 @@
 
 
     <div class="carte-produit">
-        <a href="#"><img src="img/A51.jpg" alt="Modèle A51" class="produits-catalogues"></a>
+        <a href="#"><img src="img/71aAWvRv4DL.jpg" alt="Modèle A51" class="produits-catalogues"></a>
         <h1>Samsung A51</h1>
     <div>
         <button>En savoir plus</button>

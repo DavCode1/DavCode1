@@ -24,7 +24,7 @@ body > footer{
 body > header nav ul{
     display:flex;
     justify-content:center;
-    gap:2rem;
+    gap:4rem;
     margin:0;
     flex-wrap: wrap;
     

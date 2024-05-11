@@ -2,6 +2,31 @@
     background-color:#38A0B7 ;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+}
+.logo-site-texte {
+
+        font-family: "Bakbak One", sans-serif;
+        font-weight: 100;
+        font-size: 30px; /* Taille de police */
+        color: #000000; /* Couleur du texte */
+        letter-spacing: 2px; /* Espacement entre les lettres */
+    
+    
+}
+
+.logo-site-img {
+
+    width: 40px;
+    height: 30px;
+}
+
 .titre-site {
     
     display: flex;
@@ -495,6 +520,14 @@ div > button {
         justify-content: center;
         
     }
+
+    .img-desc-3 {
+    
+        width: 458px;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
    .desc {
     display: flex;
     flex-direction: column;
@@ -524,6 +557,17 @@ div > button {
         justify-content: center;
         align-items: center; 
     }
+    .gamme3 {
+        background-color: rgb(227, 28, 28);
+        color: rgb(255, 255, 255);
+        height: 25px;
+        width: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+
     .desc-gamme {
 
     display: flex;
@@ -648,6 +692,10 @@ div > button {
         align-items: center;
         padding-top: 20px;
     }
+    .btn-samsung {
+        text-decoration: none;
+        color: white;
+    }
 
     .contacter {
         display: flex;
@@ -669,7 +717,8 @@ div > button {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 340px;
+        flex-direction: column;
+        height: 395px;
 
         
     }
@@ -837,12 +886,24 @@ div > button {
 
         margin-left: 90px;
     }
-    .img-in-div {
+    .img-desc-3{
     
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
     
     }
+
+    .img-in-div{
+    
+        width: 300px;
+        height: auto;
+
+        margin-top: 50px;
+    
+    }
+
 
     .point-forts-faibles {
         flex-direction: column;
@@ -879,6 +940,9 @@ div > button {
     
 }
 
-body *:not(.titre-actu, .titre-modele, .commentaires, .titre-catalogue, .titre-review, .contactez-nous, .texte-inscrire ) {
+body *:not(.titre-actu, .titre-modele, .commentaires, .titre-catalogue, .titre-review, .contactez-nous, .texte-inscrire, .logo-site-texte ) {
     font-family: 'Nunito Sans', sans-serif;
 }
+
+
+

@@ -21,6 +21,10 @@
 <body>
     <header class="nav" >
         <nav>
+            <div class="logo">
+            <h1 class="logo-site-texte">Uphone</h1>
+            <img src="img/hand-graving-smartphone_21520.png" alt="logo" class="logo-site-img">
+            </div>
             <ul>
               <li></li> 
                 <?php
@@ -66,7 +70,7 @@
             <div class="reseau">
                 <div class="liens">
                     <span>Pour se diriger vers le site officiel de Samsung</span>
-                    <a href="https://www.samsung.com/be_fr/">Clique ici</a>
+                    <a href="https://www.samsung.com/be_fr/" class="btn-samsung">Cliquez ici</a>
                 </div>
                 
                 <div class="contacter">
