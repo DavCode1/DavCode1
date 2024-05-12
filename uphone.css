@@ -415,6 +415,15 @@ div > button {
 
   }
 
+   .texte-actu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 1000px;
+    margin-top: 50px;
+   }
 
 .image-home-actu {
     display: flex;
@@ -741,6 +750,11 @@ div > button {
         justify-content: left;
         font-size: 20px;
         width: 360px;
+    }
+
+    .texte-actu {
+        width: 300px;
+        padding-left: 63px;
     }
     .titre-modele {
         width: 100%;

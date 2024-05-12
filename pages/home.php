@@ -5,7 +5,11 @@
       <img
         src="img/s24-page-accueil.jpg" alt="#" class="image-actu"/>
     </div>
+<div class="texte-actu">
 
+<p>Le Samsung Galaxy S24 est le dernier fleuron de la gamme Galaxy de Samsung, alliant des performances de pointe à un design élégant. Doté d'un écran époustouflant offrant une qualité d'image exceptionnelle, il est parfait pour les amateurs de contenu multimédia. Son processeur ultra-rapide assure une expérience utilisateur fluide, même lors de l'exécution des tâches les plus exigeantes. </p>
+<p>Avec une batterie longue durée et un ensemble impressionnant de fonctionnalités, le Galaxy S24 est conçu pour répondre aux besoins des utilisateurs les plus exigeants. Que ce soit pour la photographie, les jeux ou la productivité, le Samsung Galaxy S24 offre une expérience mobile de premier ordre.</p>
+</div>
     </div>
 
     
