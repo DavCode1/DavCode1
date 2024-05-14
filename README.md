@@ -18,9 +18,7 @@ Dans la page accueil, il ya une section actualité, une section des derniers mod
 Dans le catalogue, il y a une sélection de smartphones samsung, en cliquant sur "en savoir plus" l'utilisateur a accès au caractéristique et au prix de chaque produit.
 
 
-2 sections sont présente dans la page avis,
-Les smartphones les mieux notés 
-les commentaires les plus récents
+2 sections sont présente dans la page avis, les smartphones les mieux notés, les commentaires les plus récents
 
 On peut consulter les avis et les évaluations des utilisateurs pour vous guider dans votre choix. 
 Que l'on recherche des performances de pointe, une excellente autonomie de batterie ou une expérience photographique exceptionnelle, les avis aideront à trouver le smartphone parfait.
