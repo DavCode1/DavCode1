@@ -12,7 +12,7 @@ Le site Uphone est une review de smartphone, un guide d’achat pour aider les u
 
 
 Contenu :
-Dans la page accueil, il ya ;
+Dans la page accueil, il ya
 une section actualité
 une section des derniers modèles sorties
 une section commentaires
