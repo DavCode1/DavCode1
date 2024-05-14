@@ -12,10 +12,7 @@ Le site Uphone est une review de smartphone, un guide d’achat pour aider les u
 
 
 Contenu :
-Dans la page accueil, il ya
-une section actualité
-une section des derniers modèles sorties
-une section commentaires
+Dans la page accueil, il ya une section actualité, une section des derniers modèles sorties et une section commentaires
 
 
 Dans le catalogue, il y a une sélection de smartphones samsung, en cliquant sur "en savoir plus" l'utilisateur a accès au caractéristique et au prix de chaque produit.
