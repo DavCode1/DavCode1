@@ -32,6 +32,7 @@ Pour créer les cartes de tout mes produits, j'ai définis une largeur de 150 pi
 
 
 Par la suite :
+
 tout les produits auront une description et la base de donnée sera présente pour tout les produits, il y aura les commentaires en bas de page pour chaque produit avec un bouton pour voir les autres commentaires fonctionnel.
 
 Un avis par des professionnels sera ajouté sous forme de notes pour les différents produits.
