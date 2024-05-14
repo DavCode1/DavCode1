@@ -25,7 +25,7 @@ Dans le catalogue, il y a une sélection de smartphones samsung, en cliquant sur
 Les smartphones les mieux notés 
 les commentaires les plus récents
 
-Ici, nous pouvons consulter les avis et les évaluations des utilisateurs pour vous guider dans votre choix. 
+On peut consulter les avis et les évaluations des utilisateurs pour vous guider dans votre choix. 
 Que l'on recherche des performances de pointe, une excellente autonomie de batterie ou une expérience photographique exceptionnelle, les avis aideront à trouver le smartphone parfait.
 
 
@@ -36,7 +36,8 @@ Problèmes rencontrés :
 Pour créer les cartes de tout mes produits, j'ai définis une largeur de 150 pixel et une hauteur auto, les images dans certaines cartes avaientt une plus grand taille et les boutons n'était pas aligner avec le reste des cartes. Pour résoudre cela j'ai changé certaines images ça 
 
 
-Par la suite, tout les produits auront une description et la base de donnée sera présente pour tout les produits, il y aura les commentaires en bas de page pour chaque produit avec un bouton pour voir les autres commentaires fonctionnel.
+Par la suite :
+tout les produits auront une description et la base de donnée sera présente pour tout les produits, il y aura les commentaires en bas de page pour chaque produit avec un bouton pour voir les autres commentaires fonctionnel.
 
 Un avis par des professionnels sera ajouté sous forme de notes pour les différents produits.
 Un bouton filtre à côté de la barre de recherche sera ajouté dans la page catalogue pour filtré les produits en fonction de leur caractéristique.
