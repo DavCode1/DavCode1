@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJECT</title>
 
-    <link rel="stylesheet" href="X75B.css">
-    <link rel="stylesheet" href="uphone.css">
+    <link rel="stylesheet" href="public/css/X75B.css">
+    <link rel="stylesheet" href="public/css/uphone.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
         <nav>
             <div class="logo">
             <h1 class="logo-site-texte">Uphone</h1>
-            <img src="img/hand-graving-smartphone_21520.png" alt="logo" class="logo-site-img">
+           <a href=""> <img src="public/gallerie/hand-graving-smartphone_21520.png" alt="logo" class="logo-site-img"></a>
             </div>
             <ul>
               <li></li> 

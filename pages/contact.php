@@ -9,7 +9,7 @@
         <input type="email" name="email" required placeholder="Votre e-mail">
         
         <label for="telephone">téléphone</label>
-        <input type="text" name="telephone" placeholder="Votre téléphone">
+        <input type="text" name="telephone" placeholder="Votre n° de téléphone">
         
         <label for="message">Message</label>
         <textarea name="message" cols="30" rows="10" placeholder="Votre message" class="mess-contact"></textarea>

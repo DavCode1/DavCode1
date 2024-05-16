@@ -1,6 +1,6 @@
 <section class="tout-produits">
     <div class="carte-produit">
-    <a href="#"><img src="img/S10.jpg" alt="Samsung S10" class="produits-catalogues"></a>
+    <a href="#"><img src="public/img/S10.jpg" alt="Samsung S10" class="produits-catalogues"></a>
     <h1>Samsung S10</h1>
     <div>
         <button>En savoir plus</button>
@@ -8,7 +8,7 @@
 </div>
 
     <div class="carte-produit">
-    <a href="#"><img src="img/Zfold 5.jpg" alt="Samsung Zfold 5" class="produits-catalogues"></a>
+    <a href="#"><img src="public/img/Zfold 5.jpg" alt="Samsung Zfold 5" class="produits-catalogues"></a>
     <h1>Samsung Zfold 5</h1>
     <div>
         <button>En savoir plus</button>
@@ -16,7 +16,7 @@
 </div>
 
     <div class="carte-produit">
-        <a href="#"><img src="img/S12.webp" alt="Samsung Galaxy S21" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/S12.webp" alt="Samsung Galaxy S21" class="produits-catalogues"></a>
         <h1>Samsung Galaxy S21</h1>
     <div>
         <button>En savoir plus</button>
@@ -24,7 +24,7 @@
 </div>
 
     <div class="carte-produit">
-        <a href="#"><img src="img/A50.jpg" alt="Modèle A50" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/A50.jpg" alt="Modèle A50" class="produits-catalogues"></a>
         <h1>Samsung A50</h1>
     <div>
         <button>En savoir plus</button>
@@ -32,7 +32,7 @@
 </div>
 
     <div class="carte-produit">
-        <a href="#"><img src="img/J7.avif" alt="Modèle J7" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/J7.avif" alt="Modèle J7" class="produits-catalogues"></a>
         <h1>Samsung Galaxy J7</h1>
     <div>
         <button>En savoir plus</button>
@@ -40,7 +40,7 @@
 </div>
 
     <div class="carte-produit">
-        <a href="#"><img src="img/A9 pro.jpg" alt="Modèle A9 Pro" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/A9 pro.jpg" alt="Modèle A9 Pro" class="produits-catalogues"></a>
         <h1>Samsung A9 Pro</h1>
     <div>
         <button>En savoir plus</button>
@@ -48,7 +48,7 @@
 </div>
 
     <div class="carte-produit">
-        <a href="#"><img src="img/A40.jpg" alt="Modèle A40" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/A40.jpg" alt="Modèle A40" class="produits-catalogues"></a>
         <h1>Samsung A40</h1>
     <div>
         <button>En savoir plus</button>
@@ -57,7 +57,7 @@
 
 
     <div class="carte-produit">
-        <a href="#"><img src="img/71aAWvRv4DL.jpg" alt="Modèle A51" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/71aAWvRv4DL.jpg" alt="Modèle A51" class="produits-catalogues"></a>
         <h1>Samsung A51</h1>
     <div>
         <button>En savoir plus</button>
@@ -66,7 +66,7 @@
 
 
     <div class="carte-produit">
-        <a href="#"><img src="img/S10e.jpg" alt="Modèle S10e" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/S10e.jpg" alt="Modèle S10e" class="produits-catalogues"></a>
         <h1>Samsung Galaxy S10e</h1>
     <div>
         <button>En savoir plus</button>

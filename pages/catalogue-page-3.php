@@ -1,6 +1,6 @@
 <section class="tout-produits">
     <div class="carte-produit">
-    <a href="#"><img src="img/A3 2017.webp" alt="Samsung A3 2017" class="produits-catalogues"></a>
+    <a href="#"><img src="public/img/A3 2017.webp" alt="Samsung A3 2017" class="produits-catalogues"></a>
     <h1>Samsung A3 2017</h1>
     <div>
         <button>En savoir plus</button>
@@ -8,7 +8,7 @@
 </div>
 
     <div class="carte-produit">
-    <a href="#"><img src="img/A7.webp" alt="Samsung A7" class="produits-catalogues"></a>
+    <a href="#"><img src="public/img/A7.webp" alt="Samsung A7" class="produits-catalogues"></a>
     <h1>Samsung A7</h1>
     <div>
         <button>En savoir plus</button>
@@ -16,7 +16,7 @@
 </div>
 
     <div class="carte-produit">
-        <a href="#"><img src="img/S5.webp" alt="Samsung S5" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/S5.webp" alt="Samsung S5" class="produits-catalogues"></a>
         <h1>Samsung Galaxy S5</h1>
     <div>
         <button>En savoir plus</button>
@@ -24,7 +24,7 @@
 </div>
 
     <div class="carte-produit">
-        <a href="#"><img src="img/S6.jpg" alt="Modèle S6" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/S6.jpg" alt="Modèle S6" class="produits-catalogues"></a>
         <h1>Samsung Galaxy S6</h1>
     <div>
         <button>En savoir plus</button>

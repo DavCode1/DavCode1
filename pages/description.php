@@ -1,6 +1,6 @@
 <div class="desc-tel">
     <div class="desc-img">
-        <img src="img/samsung-galaxy-s24-ultra-173-cm-68-double-sim-5g-usb-type-c-12-go-512-go-5000-mah-violet.jpg" alt="samsung-galaxy-s24-ultra-violet" class="img-in-div">
+        <img src="public/img/samsung-galaxy-s24-ultra-173-cm-68-double-sim-5g-usb-type-c-12-go-512-go-5000-mah-violet.jpg" alt="samsung-galaxy-s24-ultra-violet" class="img-in-div">
     </div>
 
     <div class="desc">
@@ -16,7 +16,7 @@
 <div class="point-forts-faibles">
     <div class="pt-forts">
         <div class="desc-signe">
-        <img src="img/add_148781.png" alt="signe-plus" class="signe">
+        <img src="public/gallerie/add_148781.png" alt="signe-plus" class="signe">
         <span class="titre-résumé">Points forts</span>
     </div>
         <ul>
@@ -32,7 +32,7 @@
 
     <div class="pt-faibles">
     <div class="desc-signe">
-        <img src="img/minus_9679562.png" alt="signe-moins" class="signe">
+        <img src="public/gallerie/minus_9679562.png" alt="signe-moins" class="signe">
         <span class="titre-résumé">Points faibles</span>
     </div>
         <ul>
@@ -85,25 +85,25 @@
 
 <div class="tags">
     <div class="tag-item">
-        <img src="img/stylet2.png" alt="img-stylet" class="img-tags">
+        <img src="public/gallerie/stylet2.png" alt="img-stylet" class="img-tags">
         <div class="texte-tags">
             <span class="rouge">Sans</span>
         </div>
     </div>
     <div class="tag-item">
-        <img src="img/pliable2.png" alt="img-pliable" class="img-tags">
+        <img src="public/gallerie/pliable2.png" alt="img-pliable" class="img-tags">
         <div class="texte-tags">
             <span class="rouge">Sans</span>
         </div>
     </div>
     <div class="tag-item">
-        <img src="img/waterproof_7933396.png" alt="img-waterproof" class="img-tags">
+        <img src="public/gallerie/waterproof_7933396.png" alt="img-waterproof" class="img-tags">
         <div class="texte-tags">
             <span class="vert">Avec</span>
         </div>
     </div>
     <div class="tag-item">
-        <img src="img/disponibilité.png" alt="img-disponibilité" class="img-tags">
+        <img src="public/gallerie/disponibilité.png" alt="img-disponibilité" class="img-tags">
         <div class="texte-tags">
             <span class="vert">En vente</span>
         </div>
