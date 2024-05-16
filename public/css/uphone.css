@@ -14,11 +14,14 @@
 
         font-family: "Bakbak One", sans-serif;
         font-weight: 100;
-        font-size: 30px; /* Taille de police */
-        color: #000000; /* Couleur du texte */
-        letter-spacing: 2px; /* Espacement entre les lettres */
-    
-    
+        font-size: 30px;
+        color: #000000; 
+        letter-spacing: 2px;
+
+}
+
+.logo-a {
+    text-decoration: none;
 }
 
 .logo-site-img {

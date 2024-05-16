@@ -22,20 +22,20 @@
     <header class="nav" >
         <nav>
             <div class="logo">
-            <h1 class="logo-site-texte">Uphone</h1>
-           <a href=""> <img src="public/gallerie/hand-graving-smartphone_21520.png" alt="logo" class="logo-site-img"></a>
+            <a href="index.php?page=home" class="logo-a">   <h1 class="logo-site-texte">Uphone</h1></a>
+           <a href="index.php?page=home"> <img src="public/gallerie/hand-graving-smartphone_21520.png" alt="logo" class="logo-site-img"></a>
             </div>
             <ul>
               <li></li> 
                 <?php
                 $menu = [
-                    'home' => 'Accueil',
+                    // 'home' => 'Accueil',
                     'catalog' => 'Catalogue',
                     // 'description' => 'description',
                     'review' => 'Avis',
                     // 'logout' => 'Déconnexion',
                     // 'profile' => 'Profil',
-                    // 'product' => 'description',
+                    // 'description' => 'description',
                     'register' => 'Inscription',
                     'contact' => 'Contact',
                     'login' => 'connexion',

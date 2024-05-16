@@ -10,7 +10,7 @@ if (isset($_GET['page'])) {
     $page = 'home';
 }
 require_once "connection.php";
-include 'skeleton.php';
+require_once 'skeleton.php';
 
 ?>
 

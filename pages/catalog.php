@@ -1,86 +1,59 @@
+<?php
+$sql = 'SELECT * FROM item ORDER BY id DESC';
+$stmt = $pdo->query($sql);
+
+$items = $stmt->fetchAll();
+
+?>
+
+<?php
+$images = [];
+// Ouvrir le répertoire actuel
+$dir = 'public/img';
+
+$directories = scandir($dir);
+foreach ($directories as $directory) {
+
+    if ($directory == '.' || $directory == '..' || !is_dir($dir . '/' . $directory)) {
+        continue;
+    }
+
+    $files = scandir($dir . '/' . $directory);
+    foreach ($files as $file) {
+        if ($file == '.' || $file == '..') {
+            continue;
+        }
+        $images[$directory][] = $file;
+    }
+}
+
+?>
+
 <section class="section-catalogue">
-<div class="header-catalogue">
-    <h1 class="titre-catalogue">Tous les smartphones</h1>
-    <input type="text" placeholder="Rechercher..." class="bdr-catalogue">
-</div>
-
+    <div class="header-catalogue">
+        <h1 class="titre-catalogue">Tous les smartphones</h1>
+        <input type="text" placeholder="Rechercher..." class="bdr-catalogue">
+    </div>
     <section class="tout-produits">
-        <div class="carte-produit">
-        <a href="#"><img src="public/img/samsung-galaxy-s24-ultra-173-cm-68-double-sim-5g-usb-type-c-12-go-512-go-5000-mah-violet.jpg" alt="Samsung S24 Ultra" class="produits-catalogues"></a>
-        <h1>Samsung S24 Ultra</h1>
-        <div>
-            <button>En savoir plus</button>
-        </div>
-    </div>
 
-        <div class="carte-produit">
-        <a href="#"><img src="public/img/S24.jpg" alt="Samsung S24" class="produits-catalogues"></a>
-        <h1>Samsung S24</h1>
-        <div>
-           <a href="/Uphone-Project/index.php?page=product"><button>En savoir plus</button></a>
-        </div>
-    </div>
+        <?php
+        foreach ($items as $item) {
+            $id = $item['id'];
+        ?>
+            <div class="carte-produit">
+                <a href="index.php?page=product&id=<?= $item['id'] ?>">
+                    <img src="public/img/<?= $id ?>/<?= $images[$id][0] ?>" alt="Samsung S24 Ultra" class="produits-catalogues">
+                </a>
+                <h1><?= $item['label'] ?></h1>
+                <div>
+                    <button>En savoir plus</button>
+                </div>
+            </div>
+        <?php
+        }
+        ?>
 
-        <div class="carte-produit">
-            <a href="#"><img src="public/img/Z flip 5.jpg" alt="Samsung Z Flip 5" class="produits-catalogues"></a>
-            <h1>Samsung Z Flip 5</h1>
-        <div>
-            <button>En savoir plus</button>
-        </div>
-    </div>
-
-        <div class="carte-produit">
-            <a href="#"><img src="public/img/galaxy-a55e.jpg" alt="Modèle A55" class="produits-catalogues"></a>
-            <h1>Samsung A55 5G</h1>
-        <div>
-        <a href="index.php?page=description-page-2"><button>En savoir plus</button></a>
-        </div>
-    </div>
-
-        <div class="carte-produit">
-            <a href="#"><img src="public/img/a 54.avif" alt="Modèle A54" class="produits-catalogues"></a>
-            <h1>Samsung A54 5G</h1>
-        <div>
-            <button>En savoir plus</button>
-        </div>
-    </div>
-
-        <div class="carte-produit">
-            <a href="#"><img src="public/img/a34.jpg" alt="Modèle A34" class="produits-catalogues"></a>
-            <h1>Samsung A34</h1>
-        <div>
-            <button>En savoir plus</button>
-        </div>
-    </div>
-
-        <div class="carte-produit">
-            <a href="#"><img src="public/img/A 33.webp" alt="Modèle A33" class="produits-catalogues"></a>
-            <h1>Samsung A33</h1>
-        <div>
-            <button>En savoir plus</button>
-        </div>
-    </div>
-
- 
-        <div class="carte-produit">
-            <a href="#"><img src="public/img/LD0006119118.jpg" alt="Modèle A25" class="produits-catalogues"></a>
-            <h1>Samsung A25</h1>
-        <div>
-        <a href="index.php?page=description-page-3"><button>En savoir plus</button></a>
-        </div>
-    </div>
-
-
-        <div class="carte-produit">
-            <a href="#"><img src="public/img/a15.jpg" alt="Modèle A15" class="produits-catalogues"></a>
-            <h1>Samsung A15</h1>
-        <div>
-            <button>En savoir plus</button>
-        </div>
-    </div>
-
-    </div>
-</section>
+    </section>
 
 </section>
 
@@ -95,5 +68,3 @@
     <a href="index.php?page=catalogue-page-3" class="page">3</a>
     <a href="#" class="next">Suivant &raquo;</a>
 </div>
-
-

@@ -1,6 +1,11 @@
+
+
+
+
 <div class="desc-tel">
     <div class="desc-img">
-        <img src="public/img/samsung-galaxy-s24-ultra-173-cm-68-double-sim-5g-usb-type-c-12-go-512-go-5000-mah-violet.jpg" alt="samsung-galaxy-s24-ultra-violet" class="img-in-div">
+
+        <img src="public/img/<?= $id?>/<?=$images[$id][0]?>" alt="samsung-galaxy-s24-ultra-violet" class="img-in-div">
     </div>
 
     <div class="desc">
@@ -53,31 +58,31 @@
 <table class="table">
     <tr class="color2">
         <td>Prix</td>
-        <td>1449,00 € / 1569,00 € / 1809,00 €</td>
+        <td><?= $product["price"];?> €</td>
     </tr>
     <tr class="color1">
         <td>Capacité stockage</td>
-        <td>256Go / 512Go / 1To</td>
+        <td><?= $product["storage_capacity"];?>Go</td>
     </tr>
     <tr class="color2">
         <td>Capacité ram</td>
-        <td>12Go Ram</td>
+        <td><?= $product["ram_capacity"];?>Go Ram</td>
     </tr>
     <tr class="color1">
         <td>Capacité batterie</td>
-        <td>5000 mAh</td>
+        <td><?= $product["battery_capacity"];?>mAh</td>
     </tr>
     <tr class="color2">
         <td>Réseau</td>
-        <td>4G / 5G</td>
+        <td><?= $product["network"];?></td>
     </tr>
     <tr class="color1">
         <td>Qualité d'écran</td>
-        <td>QUAD HD+</td>
+        <td><?= $product["screen quality"];?></td>
     </tr>
     <tr class="color2">
         <td>Taille</td>
-        <td>6.8"</td>
+        <td><?= $product["size"];?>"</td>
     </tr>
 
 </table>
@@ -109,6 +114,5 @@
         </div>
     </div>
 </div>
-
 
 
