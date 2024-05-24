@@ -71,7 +71,7 @@
 
             </div>
 
-            <img src="public/img/a 54.avif"
+            <img src="public/img/A51.jpg"
                 alt="samsungS10e">
         </article>
 
@@ -154,7 +154,7 @@
     
                 </div>
     
-                <img src="img/Z flip 5.jpg"
+                <img src="public/img/4/Z flip 5.jpg"
                     alt="samsung Zflip 5">
             </article>
             <article class="description-com">
@@ -187,7 +187,7 @@
     
                 </div>
     
-                <img src="img/a55.webp"
+                <img src="public/img/2/a55.webp"
                     alt="samsung A55">
             </article>
             <article class="description-com">

@@ -373,6 +373,7 @@ section a:hover {
     padding: 10px;
     width: 300px;
     height: 370px;
+    gap: 20px;
 }
 .carousel-accueil {
     display: flex;

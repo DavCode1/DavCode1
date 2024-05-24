@@ -19,7 +19,7 @@
  
 
         <div class="carte-produit">
-        <a href="#"><img src="public/img/S24.jpg" alt="Samsung S24" class="produits-catalogues"></a>
+        <a href="#"><img src="public/img/1/S24.jpg" alt="Samsung S24" class="produits-catalogues"></a>
         <h1>Samsung S24</h1>
 
     </div>
@@ -36,7 +36,7 @@
 
 
   <div class="carte-produit">
-      <a href="#"><img src="public/img/a34.jpg" alt="Modèle A34" class="produits-catalogues"></a>
+      <a href="#"><img src="public/img/1/S24.jpg" alt="Modèle A34" class="produits-catalogues"></a>
       <h1>Samsung A34</h1>
   <div>
 
@@ -136,7 +136,7 @@ stars.forEach((star, index) => {
 
     </div>
 
-    <img src="public/img/A 33.webp"
+    <img src="public/img/6/A 33.webp"
         alt="samsung A33">
 </article>
 
