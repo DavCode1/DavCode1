@@ -37,8 +37,8 @@
 
             </div>
 
-            <img src="public/img/S24.jpg"
-                alt="samsungs24">
+            <img src="public/img/A52.jpg"
+                alt="samsungA52">
         </article>
 
         <article class="description-com">

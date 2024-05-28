@@ -221,6 +221,7 @@ body > header nav {
 }
 .titre-review {
     font-family: "Bakbak One", sans-serif;
+    font-size: 25px;
 }
 
 .container {
@@ -246,7 +247,7 @@ body > header nav {
 
 .img-et-profil {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 0fr 4fr;
     align-items: center;
     margin-bottom:1rem;
 }
@@ -254,6 +255,7 @@ body > header nav {
 .img-et-profil > img{
     width: 50px;
     grid-row: span 2;
+    margin-right: 20px;
 }
 
 section > div h2 {
@@ -531,7 +533,13 @@ div > button {
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 100px;
+        padding: 50px;
         
+    }
+
+    .img-in-div {
+        width: 400px;
     }
 
     .img-desc-3 {
@@ -553,10 +561,10 @@ div > button {
         
     }
     .gamme {
-        background-color: gold;
-
+        background-color: rgb(35, 65, 215);
+        color: whitesmoke;
         height: 25px;
-        width: 80px;
+        width: 140px;
         display: flex;
         justify-content: center;
         align-items: center; 
