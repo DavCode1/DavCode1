@@ -36,7 +36,7 @@
                     // 'logout' => 'Déconnexion',
                     // 'profile' => 'Profil',
                     // 'description' => 'description',
-                    'register' => 'Inscription',
+                    // 'register' => 'Inscription',
                     'contact' => 'Contact',
                     'login' => 'connexion',
                 ];

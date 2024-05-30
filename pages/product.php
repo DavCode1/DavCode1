@@ -19,6 +19,11 @@ $sql = "SELECT * FROM tag ORDER BY id ASC";
 $stmt = $pdo->query($sql);
 $tags = $stmt->fetchAll();
 
+$sql = "SELECT * FROM comments ORDER BY id ASC";
+$stmt = $pdo->query($sql);
+$comments = $stmt->fetchAll();
+
+
 
 require "description.php";
 

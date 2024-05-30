@@ -6,10 +6,6 @@ $items = $stmt->fetchAll();
 
 ?>
 
-
-
-
-
 <section class="section-catalogue">
     <div class="header-catalogue">
         <h1 class="titre-catalogue">Tous les smartphones</h1>

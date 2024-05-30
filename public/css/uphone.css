@@ -99,8 +99,11 @@ section > form > span {
 
 form > div > a {
     color: #38A0B7;
-    text-decoration: none;
+   
 }
+
+
+
 
 
 section > form > div {
@@ -649,6 +652,7 @@ div > button {
         border: 1px solid white; /* Bordure blanche pour créer l'espace entre les cellules */
         text-align: center; /* Centrer le texte horizontalement */
         padding: 10px; /* Ajouter un espace à l'intérieur de chaque cellule */
+        font-weight: 700;
     }
     
     /* Centrer le contenu des cellules verticalement */
@@ -717,6 +721,7 @@ div > button {
         text-decoration: none;
         color: white;
     }
+ 
 
     .contacter {
         display: flex;
